@@ -91,7 +91,7 @@ EMAIL_ACTIVE_FIELD='is_active'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER='dawaresushma@gmail.com'
-EMAIL_HOST_PASSWORD='9657004599ss'
+EMAIL_HOST_PASSWORD='***********'
 DEFAULT_FROM_EMAIL = '<anything you want>'
     #'rkphswssdazxpuru'
 
