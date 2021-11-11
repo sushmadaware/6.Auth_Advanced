@@ -1,0 +1,22 @@
+{% extends 'account/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+<title>Register</title>
+{% endblock %}
+
+{% block content %}
+<h1>Register</h1>
+<br><br>
+<div class="container">
+  <form method="post" class="jumbotron" style="width:80%">
+    {% csrf_token %}
+    {{form|crispy}}
+    <input type="submit" class="btn btn-sucess" value="Register" >
+  </form>
+  <br>
+  {% for msg in messages %}
+  <p>{{msg}}</p>
+  {% endfor %}
+</div>
+{% endblock %}
