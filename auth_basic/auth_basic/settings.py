@@ -93,7 +93,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER='dawaresushma@gmail.com'
 EMAIL_HOST_PASSWORD='***********'
 DEFAULT_FROM_EMAIL = '<anything you want>'
-    #'rkphswssdazxpuru'
+  
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
